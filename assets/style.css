@@ -1,0 +1,48 @@
+.crystal{
+	border: 5px solid black;
+	padding: 5px;
+	height: 200px;
+	width: 200px;
+	/* gives all four crystal divs a border and size */
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+	transition: box-shadow 1s;
+	/* makes all four crystals LOOK clickable */
+}
+
+.crystal:hover{
+	box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+	padding: 5px;
+	transition: box-shadow 1s;
+	/* makes all four crystals LOOK clickable */
+}
+
+
+.crystals{
+display: flex;
+justify-content: space-around;
+align-items: center;
+/* shifts all the four "crystal" divs within the "crystals" div to make it look nice and orderly */
+}
+
+img {
+	width: 50px;
+}
+
+body {
+	background: #D3D3D3;
+}
+
+p {
+	background: white;
+	font-size: 50px;
+	text-align: center;
+}
+
+h1 {
+	margin-top: 0px;
+	background: grey;
+	font-size: 75px;
+	color: white;
+	text-align: center;
+}
